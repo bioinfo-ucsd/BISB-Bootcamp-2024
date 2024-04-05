@@ -1,6 +1,6 @@
-# BISB Bootcamp 2023 Website
+# BISB Bootcamp 2024 Website
 
-This is a static website that hosts information for the 2023 UC San Diego Bioinformatics & Systems Biology PhD Program Bootcamp. The site is rendered using [Jekyll](https://jekyllrb.com/) and uses the [Just the Class website template by Kevin Lin](https://kevinl.info/just-the-class/).
+This is a static website that hosts information for the 2024 UC San Diego Bioinformatics & Systems Biology PhD Program Bootcamp. The site is rendered using [Jekyll](https://jekyllrb.com/) and uses the [Just the Class website template by Kevin Lin](https://kevinl.info/just-the-class/).
 
 If you have ideas or suggestions for this website, please contribute and/or submit an issue!
 

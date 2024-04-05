@@ -17,7 +17,7 @@ title: BISB Bootcamp
 description: Website for the 2023 incoming cohort Bootcamp of the UC San Diego Bioinformatics & Systems Biology (BISB) PhD program
 author: Mike Cuoco
 url: 'https://bioinfo-ucsd.github.io'
-baseurl: '/BISB-Bootcamp-2023' 
+baseurl: '/BISB-Bootcamp-2024'
 exclude: ["Gemfile", "Gemfile.lock"]
 
 # Theme settings
@@ -28,7 +28,7 @@ heading_anchors: true
 permalink: pretty
 aux_links:
   BISB Bootcamp 2023 on GitHub:
-    - 'https://github.com/bioinfo-ucsd/BISB-Bootcamp-2023'
+    - 'https://github.com/bioinfo-ucsd/BISB-Bootcamp-2024'
 footer_content:
 
 # Collections for website data
