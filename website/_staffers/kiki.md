@@ -1,6 +1,6 @@
 ---
 name: Kiki Spaulding
-role: Bootcamp Instructor
+role:
 email: kspaulding@ucsd.edu
 advisor: ["Graham McVicker"]
 title: 3rd year BISB PhD student

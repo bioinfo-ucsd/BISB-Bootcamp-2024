@@ -1,6 +1,6 @@
 ---
 name: Hratch Baghdassarian
-role: Bootcamp Instructor
+role:
 email: hmbaghdassarian@ucsd.edu
 advisor: ["Nathan Lewis"]
 title: 5th year BISB PhD student

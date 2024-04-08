@@ -54,10 +54,10 @@ Program chairs and administrators present information about program operations.
 
 Guest instructors lead modules on specialized topics.
 
-{% for staffer in guests %}
+<!--{% for staffer in guests %}
 {{ staffer }}
 {% endfor %}
-{% endif %}
+{% endif %}-->
 
 <!-- only print next section if these ppl exist -->
 {% assign fellows = site.staffers | where: 'role', 'Fellowship Panel' %}
@@ -67,10 +67,10 @@ Guest instructors lead modules on specialized topics.
 
 These students will sit on a panel for Q&A during the Fellowships session
 
-{% for staffer in fellows %}
+<!--{% for staffer in fellows %}
 {{ staffer }}
 {% endfor %}
-{% endif %}
+{% endif %}-->
 
 <!-- only print next section if these ppl exist -->
 {% assign interns = site.staffers | where: 'role', 'Internship Panel' %}
@@ -78,12 +78,12 @@ These students will sit on a panel for Q&A during the Fellowships session
 
 ## Internships Panelists
 
-These students will sit on a panel for Q&A during the Internships session
+<!--These students will sit on a panel for Q&A during the Internships session
 
 {% for staffer in interns %}
 {{ staffer }}
 {% endfor %}
-{% endif %}
+{% endif %}-->
 
 ## Questions?
 
