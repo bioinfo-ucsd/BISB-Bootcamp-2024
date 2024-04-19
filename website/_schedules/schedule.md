@@ -1,5 +1,6 @@
 ---
 timeline:
+  - '8:00 AM'
   - '8:30 AM'
   - '9:00 AM'
   - '9:30 AM'
@@ -53,7 +54,7 @@ schedule:
       - name: Bootcamp Overview
         type: program
         start: "11:00 AM"
-        end: "11:30 PM"
+        end: "11:30 AM"
         instructors: ["Zane Koch, *Bootcamp Instructor*", "Molly Sacks, *Bootcamp Instructor*", "Juan Tibocha-Bonilla, *Bootcamp Instructor*", "David Laub, *Bootcamp Instructor*"]
       - name: Lunch
         type: break
@@ -186,7 +187,7 @@ schedule:
       - name: "DEI in BISB"
         fullname: "Diversity Equity and Inclusion (DEI) in the BISB program and at UCSD"
         type: program
-        start: '11:00 PM'
+        start: '11:00 AM'
         end: '12:00 PM'
         instructors: "Jessica Au, *Guest Instructor*"
       - name: Lunch
