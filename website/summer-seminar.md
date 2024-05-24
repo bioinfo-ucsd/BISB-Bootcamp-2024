@@ -5,11 +5,11 @@ description: Schedule for summer seminar series.
 nav_order: 2
 ---
 
-# Summer Seminar Series
+# Summer Flash Talks
 
 This seminar series is intended to be a forum for BISB and BMI faculty to share their research and for incoming students to learn about the research opportunities available.
 
-Each session will host two faculty members, where they will present their research in 20-25 minute and answer 5-10 minutes of guided Q&A. The BISB graduate program coordinator will notify the BISB Program mailing list in the days ahead of each seminar, including information about the presenters and a password-protected link to the Zoom meeting.
+Each session will host several faculty members, where they will present their research in 10-15 minutes. The BISB graduate program coordinator will notify the BISB Program mailing list in the days ahead of each seminar, including information about the presenters and a password-protected link to the Zoom meeting.
 
 If you are unable to attend a seminar or you would like to rewatch a talk, we will post recordings here.
 
