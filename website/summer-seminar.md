@@ -9,13 +9,13 @@ nav_order: 2
 
 This seminar series is intended to be a forum for BISB and BMI faculty to share their research and for incoming students to learn about the research opportunities available.
 
-Each session will host several faculty members, where they will present their research in 10-15 minutes. The BISB graduate program coordinator will notify the BISB Program mailing list in the days ahead of each seminar, including information about the presenters and a password-protected link to the Zoom meeting.
+Each session will host several faculty members, where they will present their research in 12 minutes (+3 minutes of questions). The BISB graduate program coordinator will notify the BISB Program mailing list in the days ahead of each seminar, including information about the presenters and a password-protected link to the Zoom meeting.
 
 If you are unable to attend a seminar or you would like to rewatch a talk, we will post recordings here.
 
 ## Schedule
 
-*Seminars will take place 12:00 PM-1:30 PM every Thursday from August 15th until September 29th.*
+*Seminars will take place 12:00 PM-1:00 PM on Thursday August 15th and and Thursday August 29th.*
 
 {% for seminar in site.seminars %}
 {{ seminar }}

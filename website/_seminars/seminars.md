@@ -2,11 +2,8 @@
 seminars:
 - date: "2024-08-15"
   talks:
-  - speaker: TBD
-- date: "2024-08-22"
-  talks:
-  - speaker: TBD
+  - speakers: Tiffany Amariuta, Sandra Sanchez-Roige, Trey Ideker, Tal Einav
 - date: "2024-08-29"
   talks:
-  - speaker: TBD
+  - speaker: Rob Knight, Joel Wertheim, Sheng Zhong, Alejandro Chavez
 ---
