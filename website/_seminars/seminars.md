@@ -40,19 +40,19 @@ psychiatry\""
     photo: rob_knight.jpg
   - speaker: Joel Wertheim, PhD
     speaker_title: Associate Adjunct Professor, Medicine
-    talk_title: "\"TBD\""
-    keywords: TBD
+    talk_title: "\"Viral Genomic Epidemiology\""
+    keywords: viruses, phylogenetics, epidemiology, public health
     photo: joel_wertheim.png
   - speaker: Sheng Zhong ,PhD
     speaker_title: Professor, Bioengineering
-    talk_title: "\"TBD\""
-    keywords: TBD
+    talk_title: "\"Single-cell multiplex chromatin and RNA interactions in aging human brain\""
+    keywords: chromatin, single cell, Alzheimer's disease, RNA, brain
     website: https://systemsbio.ucsd.edu/
     photo: zhong_sheng.png
   - speaker: Alejandro Chavez, PhD
     speaker_title: Associate Professor, Pediatrics
-    talk_title: "\"TBD\""
-    keywords: TBD
+    talk_title: "\"High-throughput tools for interrogating biology\""
+    keywords: functional genomics, technology development, protein engineering
     website: https://chavezlab.com/
     photo: alejandro_chavez.jpg
 ---
