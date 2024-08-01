@@ -15,7 +15,7 @@ If you are unable to attend a seminar or you would like to rewatch a talk, we wi
 
 ## Schedule
 
-*Seminars will take place 12:00 PM-1:00 PM on Thursday August 15th and and Thursday August 29th.*
+*Seminars will take place 12:00 PM-1:00 PM on Thursday August 15th and Thursday August 29th.*
 
 {% for seminar in site.seminars %}
 {{ seminar }}
