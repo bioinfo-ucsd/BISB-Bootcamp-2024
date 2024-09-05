@@ -37,9 +37,9 @@ schedule:
     events:
       - name: Breakfast
         type: break
-        start: '8:30 AM'
+        start: '8:00 AM'
         end: '9:00 AM'
-        location: Room 145
+        location: MET 313
       - name: BISB Opening Statement from Program Chairs
         type: program
         start: "9:00 AM"
@@ -74,11 +74,19 @@ schedule:
         end: "3:00 PM"
         instructors: ["Avery, *Guest Instructor*", "David Laub, *Bootcamp Instructor*"]
         description: "In this module we will describe the molecular biology foundations of sequencing technologies, from the original sanger method to the current cutting-edge. We will work with sequencing data from the [SK-BR-3 breast cancer cell line](https://urldefense.com/v3/__https://www.cellosaurus.org/CVCL_0033__;!!Mih3wA!DxMGYatEO54sg5ijkSMxFKZi6A-SI7OvcOySNT7CONsVE67sy0_bXt5UL0Ig60P2zPkFgvCTzrcB-MvPZIto$ ) to learn about sequencing data file formats, compare data from different technologies, and search for cancer mutations."
+      - name: "International Info / Choosing an Advisor"
+        fullname: "Breakout: International Student Info / Choosing a PhD Advisor"
+        type: other
+        location: MET 143 (International Student Info); MET 145 (Choosing a PhD Advisor)
+        start: '3:15 PM'
+        end: '4:15 PM'
+        instructors: ["Juan Tibocha-Bonilla, *Bootcamp Instructor* and Sherlyn Weng, *Guest Instructor* (International Student Info), BI , *Bootcamp Instructor* (Choosing a PhD Advisor)"]
+        description: "**International Student Info**: This section will cover a brief introduction of the first things that international students have to deal with once they arrive in the US, and important points to consider in the BISB program. Also how to connect with other international students on campus! <br> **Choosing a PhD Advisor**: What should you consider when deciding on a lab beyond your research interests? Here are tips and questions to ask when identifying your new home for the next few years."
       - name: "Enjoying San Diego" 
         type: other
         fullname: "Enjoying San Diego: The BISB Guide to San Diego Sights, Eats, and Drinks"
-        start: "3:15 PM"
-        end: "4:00 PM"
+        start: "4:15 PM"
+        end: "5:00 PM"
         instructors: "TJ Sears, *Guest Instructor*"
   - name: Tuesday
     date: '2024-09-17'
@@ -86,22 +94,20 @@ schedule:
       - name: Breakfast
         type: break
         start: '8:00 AM'
-        end: '8:30 AM'
-      - name: "International Info / Choosing an Advisor"
-        fullname: "Breakout: International Student Info / Choosing a PhD Advisor"
-        type: other
-        location: MET 143 (International Student Info); MET 145 (Choosing a PhD Advisor)
-        start: '8:30 AM'
-        end: '9:30 AM'
-        instructors: ["Juan Tibocha-Bonilla, *Bootcamp Instructor* (International Student Info)", "Guest, *Guest Instructor* (Choosing a PhD Advisor)"]
-        description: "**International Student Info**: This section will cover a brief introduction of the first things that international students have to deal with once they arrive in the US, and important points to consider in the BISB program. Also how to connect with other international students on campus! <br> **Choosing a PhD Advisor**: What should you consider when deciding on a lab beyond your research interests? Here are tips and questions to ask when identifying your new home for the next few years."
+        end: '9:00 AM'
+      - name: BMI Opening Statement from Amy Sitapati
+        type: program
+        start: "9:00 AM"
+        end: "9:30 AM"
+        instructors: ["Amy Sitapati, *DBMI Director*"]
+        description: "Welcome to the BISB/BMI graduate program! Our program directors will provide an overview of the Bioinformatics and Systems Biology graduate program."
       - name: "Pragmatic Statistics"
         fullname: "Module 3: Pragmatic Statistics for Modern Biology"
         type: mod
-        start: '8:30 AM'
+        start: '9:30 AM'
         end: '10:30 AM'
         instructors: ["Molly Sacks, *Bootcamp Instructor*"]
-        description: "In this module we will introduce you to regression analysis and its applications in biology, including multiple regression, generalized linear models, and mixed effects models. We will also toucch upon the multiple testing problem, regularization, and bayesian vs frequentist statistics."
+        description: "In this module we will introduce you to regression analysis and its applications in biology, including multiple regression, generalized linear models, and mixed effects models. We will also touch upon the multiple testing problem, regularization, and bayesian vs frequentist statistics."
       - name: "Machine Learning"
         fullname: "Module 4: Introduction to Machine Learning"
         type: mod
@@ -112,7 +118,7 @@ schedule:
         type: other
         start: '11:30 AM'
         end: '12:00 PM'
-        instructors: ["GBIC Representatative", "Alex Jambor, *Guest Instructor*"]
+        instructors: ["Douglas Meyer", "Alex Jambor, *Guest Instructor*"]
       - name: Lunch
         type: break
         start: '12:00 PM'
@@ -120,7 +126,7 @@ schedule:
       - name: Ropes Course Activity
         type: social 
         start: '1:00 PM'
-        end: '4:00 PM'
+        end: '5:00 PM'
         location: UCSD Challenge Course (Eucalyptus Grove)
         description: Read about [the course](https://recreation.ucsd.edu/adventures/the-course/)!
   - name: Wednesday
@@ -135,18 +141,23 @@ schedule:
         type: other
         start: '8:30 AM'
         end: '9:30 AM'
-        instructors: ["Kathleen Dorrestein, *Guest Instructor*, Staff Research Associate, Dorrestein Lab", "Mike Cuoco, *Guest Instructor*"]
+        instructors: ["Mike Cuoco, *Guest Instructor*"]
       - name: "Bioinformatics Problem Sets"
         fullname: "Module 5: Bioinformatics Problem Sets"
         type: mod
-        start: '9:45 AM'
-        end: '10:45 AM'
+        start: '9:30 AM'
+        end: '10:30 AM'
         instructors: ["Molly Sacks, *Bootcamp Instructor*", "David Laub, *Bootcamp Instructor*"]
         description: "In this module, you and a partner will be given a relatively simple problem to solve from the [Rosalind Bioinformatics Project](https://urldefense.com/v3/__http://rosalind.info/about/__;!!Mih3wA!DxMGYatEO54sg5ijkSMxFKZi6A-SI7OvcOySNT7CONsVE67sy0_bXt5UL0Ig60P2zPkFgvCTzrcB-AP7ZzIY$ )’s textbook track and bioinformatics stronghold track. By the end of this module, you should: 1. Have a working solution for your problem prepared! 2. Have a short slide (in this presentation) explaining your code along with a fun fact about yourselves!"
+      - name: "UAW Union Presentation"
+        type: other
+        start: '10:30 AM'
+        end: '11:00 AM'
+        instructors: ["Daniel Halmos, *BISB Union Liaison*"]
       - name: "Mental Health"
         fullname: "Mental Health in Graduate School"
         type: other
-        start: '11:00 AM'
+        start: '11:30 AM'
         end: '12:00 PM'
         instructors: "Molly Sacks, *Bootcamp Instructor*"
       - name: Lunch
@@ -164,7 +175,7 @@ schedule:
         fullname: "Getting Paid: Predoctoral Fellowships & Internships"
         start: '2:00 PM'
         end: '3:15 PM'
-        instructors: "Nathan Lewis (Associate Professor, Department of Pediatrics), *Guest Instructor*, Student Panel"
+        instructors: "Nathan Lewis, *Associate Professor at the Department of Pediatrics*, Student Panel"
   - name: Thursday 
     date: '2024-09-19'
     events:
@@ -194,12 +205,12 @@ schedule:
         type: break
         start: '12:00 PM'
         end: '1:00 PM'
-      - name: "Meta-omics"
-        fullname: "Module 8: Meta-omics"
+      - name: "Metagenomics"
+        fullname: "Module 8: Metagenomics and compositional analysis of microbial communities"
         type: mod
         start: '1:00 AM'
         end: '2:30 AM'
-        instructors: ["Juan Tibocha-Bonilla, *Bootcamp Instructor*"]
+        instructors: ["Juan Tibocha-Bonilla, *Bootcamp Instructor*", "Sherlyn Weng, *Guest Instructor*"]
   - name: Friday
     date: '2024-09-20'
     events:
@@ -230,6 +241,6 @@ schedule:
       - name: Program-wide Welcome Event
         type: social
         start: '2:00 PM'
-        end: '4:00 PM'
+        end: '4:30 PM'
         location: The Forum (Price Center)
 ---
