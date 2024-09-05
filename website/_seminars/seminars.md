@@ -1,7 +1,7 @@
 ---
 seminars:
 - date: "2024-08-15"
-  flyer: 08152024_seminar.png
+  flyer: 08-15-2024_flyer.png
   talks:
   - speaker: Tiffany Amariuta, PhD
     speaker_title: Assistant Professor in the Halıcıoğlu Data Science Institute and the Department of Medicine
@@ -30,7 +30,7 @@ psychiatry\""
     website: https://www.lji.org/labs/einav-lab/
     photo: tal_einav.jpg
 - date: "2024-08-29"
-  flyer: 08292024_seminar.png
+  flyer: 08-29-2024_flyer.png
   talks:
   - speaker: Rob Knight, PhD
     speaker_title: Affiliate Professor , Computer Science and Engineering, Computer Science and Engineering
@@ -43,12 +43,6 @@ psychiatry\""
     talk_title: "\"Viral Genomic Epidemiology\""
     keywords: viruses, phylogenetics, epidemiology, public health
     photo: joel_wertheim.png
-  - speaker: Sheng Zhong ,PhD
-    speaker_title: Professor, Bioengineering
-    talk_title: "\"Single-cell multiplex chromatin and RNA interactions in aging human brain\""
-    keywords: chromatin, single cell, Alzheimer's disease, RNA, brain
-    website: https://systemsbio.ucsd.edu/
-    photo: zhong_sheng.png
   - speaker: Alejandro Chavez, PhD
     speaker_title: Associate Professor, Pediatrics
     talk_title: "\"High-throughput tools for interrogating biology\""
