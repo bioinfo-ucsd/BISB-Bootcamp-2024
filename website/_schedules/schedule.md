@@ -77,7 +77,7 @@ schedule:
       - name: "International Info / Choosing an Advisor"
         fullname: "Breakout: International Student Info / Choosing a PhD Advisor"
         type: other
-        location: MET 143 (International Student Info); MET 145 (Choosing a PhD Advisor)
+        location: MET 313 (International Student Info); MET 313 (Choosing a PhD Advisor)
         start: '3:15 PM'
         end: '4:15 PM'
         instructors: ["Juan Tibocha-Bonilla, *Bootcamp Instructor* and Sherlyn Weng, *Guest Instructor* (International Student Info), BI , *Bootcamp Instructor* (Choosing a PhD Advisor)"]
@@ -95,6 +95,7 @@ schedule:
         type: break
         start: '8:00 AM'
         end: '9:00 AM'
+        location: MET 313
       - name: BMI Opening Statement from Amy Sitapati
         type: program
         start: "9:00 AM"
@@ -136,6 +137,7 @@ schedule:
         type: break
         start: '8:00 AM'
         end: '8:30 AM'
+        location: MET 141
       - name: Scientific Communication
         fullname: PhD-Level Scientific Communication
         type: other
@@ -183,6 +185,7 @@ schedule:
         type: break
         start: '8:00 AM'
         end: '8:30 AM'
+        location: MET 315
       - name: "Software Engineering (Lecture)"
         fullname: "Module 7A: Software Engineering on a Team (Lecture)"
         type: mod
@@ -218,6 +221,7 @@ schedule:
         type: break
         start: '8:30 AM'
         end: '9:00 AM'
+        location: MET 313
       - name: "Reproducible Bioinformatics"
         fullname: "Module 9: Reproducible Bioinformatics"
         type: mod
