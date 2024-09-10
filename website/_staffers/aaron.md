@@ -1,6 +1,6 @@
 ---
 name: Aaron Boussina
-role: Internship Panel
+role: archive-Internship Panel
 email: aeboussina@ucsd.edu
 advisor: ["Shamim Nemati"]
 internship: ["Genentech", "Illumina"]

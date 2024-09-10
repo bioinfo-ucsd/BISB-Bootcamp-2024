@@ -1,6 +1,6 @@
 ---
 name: Alex Wenzel
-role: Guest Instructor
+role: archive-Guest Instructor
 session: ["Breakout: Choosing a PhD Advisor"]
 email: atwenzel@ucsd.edu
 advisor: ["Jill Mesirov"]

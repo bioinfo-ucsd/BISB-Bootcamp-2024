@@ -1,6 +1,6 @@
 ---
 name: Fran Perez Estrada
-role: Admin
+role: archive-Admin
 email: fperezestrada@ucsd.edu
 title: BISB Graduate Program Coordinator
 photo: fran_perez_estrada.jpg

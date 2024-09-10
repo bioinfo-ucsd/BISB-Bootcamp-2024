@@ -1,6 +1,6 @@
 ---
 name: Xingzhao Wen
-role: Internship Panel
+role: archive-Internship Panel
 email: xzwen@ucsd.edu
 advisor: ["Sheng Zhong"]
 internship: ["Vertex pharmaceuticals"]

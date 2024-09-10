@@ -50,7 +50,8 @@ schedule:
         type: program
         start: "10:00 AM"
         end: "11:00 AM"
-        instructors: ["Terry Gaasterland, *BISB Program Chair*"]
+        instructors: ["Amber Christensen, *BISB Graduate Program Coordinator
+*"]
       - name: Bootcamp Overview
         type: program
         start: "11:00 AM"
