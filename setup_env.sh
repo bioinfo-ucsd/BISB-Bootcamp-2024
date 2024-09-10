@@ -12,7 +12,8 @@ fi
 
 export PATH="$HOME/miniforge3/bin:$PATH"
 
-mamba env create -f env.yml -y
+script_dir=$(realpath "$0") && dirname "$script_dir"
+mamba env create -f $script_dir/env.yml -y
 mamba run -n bootcamp ipython kernel install --user --name=python_bootcamp --display-name="Python 3 (bootcamp)"
 mamba run -n bootcamp Rscript -e 'IRkernel::installspec(name="R_bootcamp", displayname="R (bootcamp)")'
 
