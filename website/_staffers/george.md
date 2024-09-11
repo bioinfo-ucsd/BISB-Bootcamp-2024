@@ -1,6 +1,6 @@
 ---
 name: George Armstrong
-role: Internship Panel
+role: archive-Internship Panel
 email: garmstro@eng.ucsd.edu
 advisor: ["Rob Knight"]
 internship: ["NVIDIA", "Thermo Fisher Scientific"]

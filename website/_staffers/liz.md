@@ -1,6 +1,6 @@
 ---
 name: Elizabeth Soos
-role: Admin
+role: archive-Admin
 email: esoos@ucsd.edu
 title: BISB/Bioengineering Student Affairs Manager
 photo: 

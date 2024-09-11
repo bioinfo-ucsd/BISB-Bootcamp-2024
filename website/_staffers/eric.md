@@ -1,6 +1,6 @@
 ---
 name: Eric Kofman
-role: Internship Panel
+role: archive-Internship Panel
 email: ekofman@ucsd.edu
 advisor: ["Gene Yeo"]
 internship: ["Element Biosciences"]
