@@ -4,7 +4,7 @@
 # Step 0. Activate conda environment
 ##############################################
 
-conda activate mopp
+conda activate bootcamp
 
 
 echo "This is runnning woltka first step against the above50 database (large)" 
