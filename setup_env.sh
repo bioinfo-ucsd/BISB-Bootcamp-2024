@@ -23,6 +23,7 @@ fi
 
 if [ ! -d "$HOME/miniforge3" ]; then
     bash $HOME/Miniforge3-Linux-x86_64.sh -b
+    rm ~/Miniforge3-Linux-x86_64.sh
     export PATH="$HOME/miniforge3/bin:$PATH"
     mamba init
     source ~/.bashrc
@@ -35,14 +36,5 @@ if [ ! -d "$HOME/miniforge3/envs/bootcamp" ]; then
     mamba run -n bootcamp ipython kernel install --user --name=python_bootcamp --display-name="Python 3 (bootcamp)"
     mamba run -n bootcamp Rscript -e 'IRkernel::installspec(name="R_bootcamp", displayname="R (bootcamp)")'
 fi
-
-touch ~/.bash_profile
-cat >> ~/.bash_profile << EOF
-if [ -f ~/.bashrc ]; then
-        . ~/.bashrc
-fi
-EOF
-
-rm ~/Miniforge3-Linux-x86_64.sh
 
 echo Done!
