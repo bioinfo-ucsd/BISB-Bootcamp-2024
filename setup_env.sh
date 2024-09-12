@@ -3,18 +3,16 @@
 set -eu
 
 if [ ! -d "$HOME/.oh-my-bash" ]; then
-    bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)"
+    bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)" --unattended
 fi
 
 if [ ! -f "$HOME/.pixi/bin/pixi" ]; then
     curl -fsSL https://pixi.sh/install.sh | bash
     touch ~/.bashrc
     echo 'eval "$(pixi completion --shell bash)"' >> ~/.bashrc
+    export PATH=$HOME/.pixi/bin:$PATH
+    pixi g i git gh zellij ripgrep dust bat sd tree
 fi
-
-source ~/.bashrc
-
-pixi g i git gh zellij ripgrep dust bat sd
 
 sd 'OSH_THEME="font"' 'OSH_THEME="axin"' ~/.bashrc
 
@@ -25,9 +23,11 @@ fi
 
 if [ ! -d "$HOME/miniforge3" ]; then
     bash $HOME/Miniforge3-Linux-x86_64.sh -b
+    rm ~/Miniforge3-Linux-x86_64.sh
+    export PATH="$HOME/miniforge3/bin:$PATH"
+    mamba init
+    source ~/.bashrc
 fi
-
-export PATH="$HOME/miniforge3/bin:$PATH"
 
 if [ ! -d "$HOME/miniforge3/envs/bootcamp" ]; then
     echo Installing bootcamp environment
@@ -37,14 +37,4 @@ if [ ! -d "$HOME/miniforge3/envs/bootcamp" ]; then
     mamba run -n bootcamp Rscript -e 'IRkernel::installspec(name="R_bootcamp", displayname="R (bootcamp)")'
 fi
 
-mamba init
-source ~/.bashrc
-
-touch ~/.bash_profile
-cat >> ~/.bash_profile << EOF
-if [ -f ~/.bashrc ]; then
-        . ~/.bashrc
-fi
-EOF
-
-rm ~/Miniforge3-Linux-x86_64.sh
+echo Done!
