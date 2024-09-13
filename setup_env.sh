@@ -14,7 +14,7 @@ if [ ! -f "$HOME/.pixi/bin/pixi" ]; then
     pixi g i git gh zellij ripgrep dust bat sd tree
 fi
 
-sd 'OSH_THEME="font"' 'OSH_THEME="axin"' ~/.bashrc
+sd 'OSH_THEME="font"' 'OSH_THEME="powerline-plain"' ~/.bashrc
 
 if [ ! -f "$HOME/Miniforge3-Linux-x86_64.sh" ]; then
     wget --timeout=5 -t 5 -P $HOME \
