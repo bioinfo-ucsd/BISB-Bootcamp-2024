@@ -5,5 +5,5 @@
 	path = docker
 	url = https://github.com/ucsd-ets/BNFO000.git
 [submodule "modules/02-softengteam"]
-	path = modules/soft-eng-teamm
+	path = modules/soft-eng-team
 	url = https://github.com/bioinfo-ucsd/BISB-Bootcamp-module-07
