@@ -212,8 +212,8 @@ schedule:
       - name: "Metagenomics"
         fullname: "Module 8: Metagenomics and compositional analysis of microbial communities"
         type: mod
-        start: '1:00 AM'
-        end: '2:30 AM'
+        start: '1:00 PM'
+        end: '2:30 PM'
         instructors: ["Juan Tibocha-Bonilla, *Bootcamp Instructor*", "Sherlyn Weng, *Guest Instructor*"]
   - name: Friday
     date: '2024-09-20'
