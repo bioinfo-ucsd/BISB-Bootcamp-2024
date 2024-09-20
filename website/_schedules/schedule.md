@@ -247,5 +247,5 @@ schedule:
         type: social
         start: '2:00 PM'
         end: '4:30 PM'
-        location: The Forum (Price Center)
+        location: Stage Room next to Shores Diner
 ---
